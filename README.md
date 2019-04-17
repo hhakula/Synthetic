@@ -12,8 +12,9 @@ samples but to illustrate the performance of the basic method as is.
 ## Getting Started
 
 ### Prerequisites
-You must have a Mathematica license to run the full suite of examples. The MATLAB routine is available for the experienced
-users only.
+You must have a Mathematica license to run the full suite of examples. The MATLAB routines are available for the experienced
+users only. It is assumed that the user can export the data from mathematica to MATLAB in some suitable way. We shall provide examples in the future versions.
+
 ### Installing
 Install the Synthetic package to Mathematica's path.
 
