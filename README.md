@@ -13,13 +13,13 @@ samples but to illustrate the performance of the basic method as is.
 
 ### Prerequisites
 You must have a Mathematica license to run the full suite of examples. The MATLAB routines are available for the experienced
-users only. It is assumed that the user can export the data from mathematica to MATLAB in some suitable way. We shall provide examples in the future versions.
+users only. It is assumed that the user can export the data from Mathematica to MATLAB in some suitable way. We shall provide examples in the future versions.
 
 ### Installing
 Install the Synthetic package to Mathematica's path.
 
 ## Testing
-There are two Mathematica Notebooks for testing. Notice that the notebooks do not fit to the versioning model very well. The examples distributed here contain example outcomes and it is a good idea to keep the originals safe and test with copies only.
+There are two Mathematica notebooks for testing. Notice that the notebooks do not fit to the versioning model very well. The examples distributed here contain example outcomes and it is a good idea to keep the originals safe and test with copies only.
 
 ### Installing
 Install the SyntheticMNIST package to Mathematica's path.
