@@ -8,3 +8,27 @@ In the examples two different cases are examined. In the ideal case the initial 
 transformation is exact and all the errors are due to discrete sampling error. In the second case, synthetic handwriting
 samples are generated using the MNIST database. Here the emphasis is not on generating the best possible synthetic
 samples but to illustrate the performance of the basic method as is.
+
+## Getting Started
+
+### Prerequisites
+You must have a Mathematica license to run the full suite of examples. The MATLAB routine is available for the experienced
+users only.
+### Installing
+Install the Synthetic package to Mathematica's path.
+
+## Testing
+There are two Mathematica Notebooks for testing. Notice that the notebooks do not fit to the versioning model very well. The examples distributed here contain example outcomes and it is a good idea to keep the originals safe and test with copies only.
+
+### Installing
+Install the SyntheticMNIST package to Mathematica's path.
+
+### Running Tests
+In the ideal data case, change the number of realisations and see how the discrete sampling error changes the accuracy.
+In the MNIST example, test with different filters.
+
+## Authors
+Harri Hakula
+
+## Reference
+H. Hakula, P. Ilmonen, SYNTHETIC AUGMENTATION OF DATASTREAMS WITH INVARIANT COORDINATE TRANSFORMATION, submitted, 2019.
