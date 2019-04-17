@@ -3,14 +3,18 @@
 BeginPackage["Synthetic`"]
 
 
-ICSTransformation::usage="";
+ICSTransformation::usage="ICSTransformation[ndata] Compute the transformation using the matrix of samples.";
 
 
-ICSProduction::usage="";
+ICSProduction::usage="ICSProduction[model] Create a new realisation using a transformation stored in model.";
+
+
+ICSConstrainedProduction::usage="ICSConstrainedProduction[model,options] Create a new realisation using a transformation stored in model.
+Select coordinates using \"Mask\". Process data with a filter function \"Filter\". Default filter is an identity function.";
 
 
 Options[ICSProduction]={};
-Options[ICSConstrainedProduction]={"Mask"->All, "Filter"->Function[{var,mean,std},var]};
+Options[ICSConstrainedProduction]={"Mask"->All, "Filter"->Function[{variable,mean,std},variable]};
 
 
 Begin["`Private`"]

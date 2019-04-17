@@ -3,22 +3,22 @@
 BeginPackage["SyntheticMNIST`"]
 
 
-ReadDatabase::usage=""
+ReadDatabase::usage="ReadDatabase[target] Read database from the paths pointed to by 
+target[\"Labels\"] and target[\"Images\"]"
 
 
-PickDigits::usage=""
+PickDigits::usage="PickDigits[digit,db] Select data of digit from database db."
 
 
-ViewRefDigit::usage=""
+ViewRefDigit::usage="ViewRefDigit[L] Show L as a pixel map."
 
 
-ViewSyntheticDigit::usage=""
+ViewSyntheticDigit::usage="ViewSyntheticDigit[L] Show L as a scaled pixel map."
 
 
 Begin["`Private`"]
 
 
-(* ::Code::Initialization:: *)
 Options[ReadDatabase]={"Mirror"->False};
 ReadDatabase[target_Association,opt:OptionsPattern[]]:=Block[{X,Y},
 (* There are 8 bytes of metadata at the beginning of the file. *)
